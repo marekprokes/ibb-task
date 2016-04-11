@@ -1,0 +1,35 @@
+{
+  "name": "ibb_task",
+  "version": "1.0.1",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodejs ./node_modules/.bin/mocha --reporter spec",
+    "start": "nodejs server.js"
+  },
+  "dependencies": {
+    "redis": "^2.6.0-0"
+  },
+  "author": "Marek Prokeš",
+  "engines": {
+    "node": "5.7.0",
+    "npm": "3.6.0"
+  },
+  "description": "Save HTTPGET parameters",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekprokes/ibb_task.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/marekprokes/ibb_task/issues"
+  },
+  "homepage": "https://github.com/marekprokes/ibb_task"
+}
